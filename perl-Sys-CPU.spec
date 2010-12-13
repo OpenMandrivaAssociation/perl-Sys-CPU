@@ -24,7 +24,7 @@ support has been added (but not tested).
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%make
+make
 
 %check
 %{__make} test
