@@ -5,7 +5,7 @@ Name: 		perl-%{upstream_name}
 Version: 	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
 
-Summary:	Perl extension for getting CPU information. Currently only number of CPU's supported.
+Summary:	Perl extension for getting CPU information. Currently only number of CPU's supported
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
