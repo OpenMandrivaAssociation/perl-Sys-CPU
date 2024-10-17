@@ -8,7 +8,7 @@ Release:	%mkrel 1
 Summary:	Perl extension for getting CPU information. Currently only number of CPU's supported
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
