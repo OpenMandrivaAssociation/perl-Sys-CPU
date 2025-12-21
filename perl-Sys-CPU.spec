@@ -13,6 +13,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/%{upstream_name}-%{u
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
+BuildRequires:	make
 %description
 In responce to a post on perlmonks.org, a module for counting the number
 of CPU's on a system. Support has now also been added for type of CPU
