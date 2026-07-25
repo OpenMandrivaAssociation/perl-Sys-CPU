@@ -2,13 +2,13 @@
 %define upstream_version 0.52
 
 Name: 		perl-%{upstream_name}
-Version: 	%perl_convert_version %{upstream_version}
-Release:	%mkrel 1
+Version: 	%{upstream_version}
+Release:	2
 
 Summary:	Perl extension for getting CPU information. Currently only number of CPU's supported
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/Sys-CPU
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
