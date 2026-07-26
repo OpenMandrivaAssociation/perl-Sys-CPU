@@ -1,15 +1,13 @@
 %define upstream_name	 Sys-CPU
-%define upstream_version 0.52
-
 Name: 		perl-%{upstream_name}
-Version: 	%{upstream_version}
-Release:	2
+Version: 	0.52
+Release:	3
 
 Summary:	Perl extension for getting CPU information. Currently only number of CPU's supported
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Sys-CPU
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CDDB/%{upstream_name}-%{version}.tar.gz
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
@@ -21,7 +19,7 @@ and clock speed. While much of the code is from UNIX::Processors, win32
 support has been added (but not tested).
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
